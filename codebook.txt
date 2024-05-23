@@ -1,0 +1,174 @@
+﻿* CODEBOOK anonymized dataset
+
+* Variable	Explanation
+
+
+id	created id number values between 1-4575
+
+group	randomization variable
+
+0	control group
+1	intervention group
+
+completed	whether follow up survey was completed by participant
+
+0	No
+1	Yes
+
+infection	whether participant met the defintion of respiratory symptoms
+0	No
+1	Yes
+
+mice_infection	imputed data on infection, iteration 1
+0	No
+1	Yes
+
+
+c19	wheter participant tested positive for covid-19 (self reported)
+0	No
+1	Yes
+
+headache	whether participant experienced headache the last 14 days
+0	No
+1	Yes
+
+fever	whether participant experienced fever the last 14 days
+0	No
+1	Yes
+
+runny nose	whether participant experienced a runny nose the last 14 days
+0	No
+1	Yes
+
+reducedsmell	whether participant experienced reduced sense of smellthe last 14 days
+0	No
+1	Yes
+
+reducedtaste	whether participant experienced reduced sence of taste the last 14 days
+0	No
+1	Yes
+
+reduced appetite	whether participant experienced reduced appetite the last 14 days
+0	No
+1	Yes
+
+throat	whether participant experienced a sore throat the last 14 days
+0	No
+1	Yes
+
+cough	whether participant experienced cough the last 14 days
+0	No
+1	Yes
+
+sneezing	whether participant experienced sneezing the last 14 days
+0	No
+1	Yes
+
+bodyache	whether participant experienced body ache the last 14 days
+0	No
+1	Yes
+
+muscleache whether participant experienced muscle ache the last 14 days
+0	No
+1	Yes
+
+tired whether participant experienced tiredness the last 14 days
+0	No
+1	Yes
+
+heavy breathing whether participant experienced heavy breathing the last 14 days
+0	No
+1	Yes
+
+stomachache whether participant experienced stomach ache the last 14 days
+0	No
+1	Yes
+
+age_rounded age rounded to closes 5 year (20, 25, 30 etc)
+
+age_cat age category
+1	Under 30 
+2	30-60
+3	Over 60
+
+female	sex
+0	male
+1	female
+
+covid_vacc_recceived	Number of COVID-19 vaccines received (data from Norwegian Immunisation Registry SYSVAK)
+0	0
+1	1
+2	2
+>=3	>=3
+
+imm	whether participant met difintion of immunized (received at least one dose of a COVID-19 vaccine more than 14 days before trial enrollment) 
+0	No
+1	Yes
+
+household_size	number of people in the household
+1	1
+2	2
+3	3
+4	4
+5+	5+
+7	Missing
+
+children_in_household number of children in the household
+0	0
+1	1
+2-3	2-3
+4+	4+
+
+colleagues how many colleagues/customers the participant usually meets at work
+0	Nobody
+1	1-4
+2	5-9
+3	10 or more
+4	do not know
+
+attitude_facemask	Wearing face masks...
+1	reduces risk of infection 
+2	reduces risk of infection to some extent 
+3	does not affect the risk of infection  
+4	increases risk of infection to some extent 
+5	increases risk of infection 
+6	I don’t know  
+7	missing
+
+facemask_use use of face mask ain the two weeks before randomisation
+1	Always (100% of the time) 
+2	Almost always (75% of the time) 
+3	Often (50% to 75% of the time) 
+4	Sometimes (25% to 50%)
+5	A few times (up to 25% of the time) 
+6	Never (0% of the time)
+7	I don’t know 
+
+public_transport_bl	commute to work using public transport at baseline
+0	No
+1	Yes
+2	I don't know
+
+public_transport_flw	did you use public transport
+0	No
+1	Yes
+
+facemask_flw	How often did you use face mask outside of the home when you were outside among people the last 1 days
+1	Allways (100% of the time
+2	Almost always (75% of the time) 
+3	Often (50% to 75% of the time) 
+4	Sometimes (25% to 50%)
+5	A few times (up to 25% of the time) 
+6	Never (0% of the time)
+7	I don’t know
+
+cultural_flw did you attend a cultural event
+0	No
+1	Yes
+
+
+restaurant_flw did you eat in a restaurant
+0	No
+1	Yes
+
+
